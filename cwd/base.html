@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chicago Web Designers</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Expand your business Today!</h1>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>A personalized website for your business made simple</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>We are Computer Science Students looking to expand our knowledge and help you and your business succeed for an affordable price</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <h3>Custom designs</h3>
+            <ul>
+            <li><a>Flat Rate: $20</a></li>
+            <li><a>Per page:$5</a></li>
+            </ul>
+            <!--Make calculator based on the given variables-->
+            <p>Calculate your total based on your vison</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>How visitors can get in touch with you.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TheChicagoWebDesigners. All rights reserved.</p>
+    </footer>
+</body>
+</html>
